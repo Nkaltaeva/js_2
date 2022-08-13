@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict';
+
+        const a = +prompt('Введите первое число')
+        const b = +prompt('Введите второе число')
+
+        if (a >= 0 && b >= 0) {
+            console.log(a - b);
+        } else if (a < 0 && b < 0) {
+            console.log(a * b);
+        } else if (a * b < 0) {
+            console.log(a + b);
+        }
+    </script>
+</body>
+</html>
